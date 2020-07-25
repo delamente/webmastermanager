@@ -1,0 +1,210 @@
+
+/*esta parte es la encargada de las propiedades y caracteristicas de la div= NAVEGACION*/
+.tomato{
+    color: tomato;}
+
+.verde{ color: green;
+ }
+
+.celeste { color: rgb(7, 54, 19);}
+#unico {
+color: black; font-size: 50px;
+}
+.hiphop{
+    color: black;font-size: 40px; padding: 20px;
+    width: 50%;
+}   
+button{
+    background: fa1616; 
+    color: ffa931;
+}
+button:hover{
+    background: salmon;
+}
+button:active{
+    background: green;
+}
+/*estas son las propiedades de los titulos de los parrafos de la primera seccion*/
+h1{ 
+    color: palevioletred;
+    font-size: 30pt;
+    text-shadow: rgba(0,0,255,1) -1px -2px 0.5em; 
+    height: 150px; width: 400px;
+    background-color: green;
+    display: inline-table;
+    font-size: 185%;
+    padding: 10; width: 25%;
+    margin: 10px;
+    display: inline-block; vertical-align: bottom ;
+    /*estas son las propiedades de los bordes en los títulos*/
+    border-color: #ff6600;  border-style: outset;
+    border-width: 10px; width: 110px; height: 200px;
+}
+p {
+    font-size: 130%;
+ /*caracteristicas de los párrafos en la primera sección*/   
+    padding: 20px;
+    width: 25%;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px;
+    text-decoration: blink;
+    word-wrap: normal;    
+}   
+
+$primaryColor = #303030; 
+
+
+#foot {/*caracteristicas de este atributo*/
+    color: black; font-size: large ; 100px;
+    background-attachment: fixed;
+    width: 25%;
+    .social-links {
+        background: white;
+        &:hover {
+            background: $primaryColor;
+        }
+    }
+}
+
+#foot .social-links 
+ nav{ 
+
+/*seccion de navegacion*/
+     background: rgb(80, 79, 79);
+    quotes: none
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    d; padding: 10px;
+     margin: 10px100px
+     
+   
+ }
+ /*este es una propiedad para agregar a  los parrafos y a los títulos*/
+ .padre{
+     display: flex;
+ }
+a{/*anclas*/
+    background: cadetblue;
+    display: inline-block;
+    
+
+}
+.nave{ /*CLASE */
+    background: rgb(220, 93, 20);
+    padding: 10px; 10px;        
+    COLOR: black;
+    display: inline-block;
+    text-decoration: none;
+    justify-content: center ;
+
+}
+.nave:hover{ /*cuando el mouse del user se posiciona sobre el boton*/
+    background: cornflowerblue;  
+}
+
+/*esto sirve para adaptar la pantalla a tamaño celular*/
+@media (max-width: 600px) {
+    .nave{
+        
+        background: green;
+        flex-direction: column;
+    }
+}
+.nav-button{/*esto es son las caracteristicas de este atributo*/
+    background: green;
+    color: white;
+    padding: 10px 0;
+    display: inline-block;
+    
+}
+.desaparece{ /*estas son las caracteristicas de este atributo*/
+    display: none;
+
+}
+/* solo es un ejemplo de tipos de letras y sus tamaños correspondientes*/
+/*estos cuatro textos representan los ejemplos para la modificacion de fuentes de letra*/
+p.serif { /*es el primer ejemplo de la pagina*/
+   font-family: "Times New Roman", Times, serif ; 
+   font-style: oblique;font-weight:  700 ;
+} 
+p.sansserif { /*segundo ejemplo de la pagina */
+   font-family: Helvetica, Arial, sans-serif ; 
+   font-size:  x-large; 
+   font-style: italic; text-align: right
+} 
+p.monospace { /*que tal esto es la presentacion del tercer parrafo*/
+   font-family: "Courier New", Courier, monospace;
+   font-size:  large; font-weight:  bold;
+   text-align: left ; 
+} 
+p.cursive { /**/
+   font-family: Florence, cursiva ; 
+   font-size: 1.25em; font-weight: bolder; text-align: center;
+} 
+p.fantasy { 
+   font-family: Blippo, fantasía ; 
+   font-size: 20px; 
+   font-style:  normal ;
+   font-weight: lighter;
+   font-variant: small-caps ;
+}
+body {/*este elemento eleige el color del fonde de la pagina*/
+    background-color: #87CEFA;
+}
+
+body{/*esta es la imagen de fonde que tiene toda la pagina web*/
+    background-image:url("https://farm2.staticflickr.com/1826/41537164060_2863b811e4.jpg");
+    padding: 30px;  color: white;
+
+    
+} /*esto es un ejemplo de como hacer listas ordenadas y desordenadas*/
+ol.lower-alpha { list-style-type: lower-alpha; } ul.circle { tipo-estilo-lista: círculo; } ul.square { tipo-estilo-lista: cuadrado; }
+
+/*clase de posicionamiento estático de parrafos*/
+p.position_static{
+    p position: fixed;
+    top: 30px;
+    right: 5px;
+    color: red;
+}
+img {  clear: both;
+    float: left ;   border-color: #4e2104;  border-style: outset;
+    border-width: 10px; width: 180px; height: 24    0px;
+    border-radius: 20px;
+    background-color: green; /* esta parte modifica el cuadro de la imagen que tiene los articulos*/
+     }
+text-shadow: 
+
+
+scss o sass (stilus) /*buscar esto para complementar los estilos*/
